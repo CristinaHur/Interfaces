@@ -1,0 +1,242 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+   
+    background-image:url("../../Bibliografía/Imagenes/rapaces1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+/* 			main{
+    height: 100%;
+    width: auto;
+} */
+#birdintro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../Bibliografía/Imagenes/scotlandforest.jpg");
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: -100;
+}
+#birdname{
+    text-align: center;
+    top: 0;
+    padding: 0vw;
+    margin: 0;		
+    font-family: "battambang";
+    font-size: 400%;
+    color: white;
+    
+}
+#container{
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    /* background: linear-gradient(to bottom, rgb(10, 114, 33), transparent, transparent, transparent); */
+}
+#birditemlist{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    flex-direction: column;
+}
+.birditem{
+    display: flex;
+    margin-bottom	: 3%;
+}
+.birdsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.birdsectiontitle{	
+    font-family: "battambang";
+    font-size: 300%;
+}
+.birdtext{
+    font-size: 150%;
+}
+.birdphoto{
+    max-width: 40%;
+    border-radius: 1vw;
+    margin: 0% 1% 0% 1%;
+    padding: 0%;
+}
+#footer {
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+}
+#agreements {
+    text-align: center;
+}
+hr{
+    background-color: black;
+}
+main, footer {
+font-size:6pt;
+font-family: Calibri;
+}
+
+a {
+color: #222;
+text-decoration: none;
+}
+ul, ol, li {
+list-style: outside none none;
+}
+
+header, #central-content {
+box-sizing: border-box;
+margin: 0;
+width: 100%;
+
+}
+
+
+header h1#logo img {
+    
+height: 80px;
+margin-left: auto;
+margin-right: auto;
+/* display:block; 
+justify-content: space-between;
+flex-direction: column;
+align-self: center;
+align-items: center;
+*/
+}
+
+
+header {
+background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(1,42,54) 0%, rgba(41, 62, 107, 1) 100%) repeat scroll 0 0;
+box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+padding: 0.8em 0 0;
+margin: 0px;
+width: 100%;
+
+
+}
+header h1 {/*aves rapaces texto*/
+float:left;
+padding: 0 0 0.2em;
+}
+.control-menu {/*boton*/
+background-color: transparent;
+background-position: center center;
+border: 1px solid #fff;
+display: block;
+float: right;
+height: 80px;
+margin-right: 1.3em;
+width: 80px;
+}
+.control-menu a span {
+display: inline-block;
+height: 80px;
+text-indent: -9999px;
+width: 80px;
+}
+.control-menu .close {
+background-image: url("../../Bibliografía/Imagenes/close-menu.png");
+background-position: center center;
+background-repeat: no-repeat;
+display: none;
+}
+.control-menu .open {
+background-image: url("../../Bibliografía/Imagenes/open-menu.png");
+background-position: center center;
+background-repeat: no-repeat;
+display: block;
+}
+
+ul.nav-items {
+clear: both;
+height: 0;
+overflow: hidden;
+transition: height 0.4s ease-in-out 0s, background-color 2s ease 0s; 
+}
+
+#navigation:target ul.nav-items {
+background: #f0f0f0 none repeat scroll 0 0;
+height: 15.8em;
+transition: height 0.4s ease-in-out 0s, background-color 0.9s ease 0s; 
+margin-bottom: 0;
+margin-top: 0;
+}
+
+.close { 
+display:none;
+}
+
+#navigation:target .open {
+display: none;
+}
+
+
+#navigation:target .close {
+display: block;
+}
+
+
+ul.nav-items li {
+display: block;
+}
+ul.nav-items a {
+border-top: 2px dotted #dddbdb;
+color: #333;
+display: block;
+height: 3em;
+line-height: 3em;
+margin: 0 1.3em;
+}
+ul.nav-items li:first-child a {
+border-top: 2px solid transparent;
+}
+ul.nav-items li a span {
+border-left: 3px solid;
+height: 3.2em;
+padding: 0.4em 0.5em;
+}
+@media( min-width:400px ) {
+body {
+    background-image:url("../../Bibliografía/Imagenes/rapaces2.jpg");
+font-size:6pt;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: red;
+
+}
+}                                                                                       
+@media( min-width:801px ) {
+body {
+    background-image:url("../../Bibliografía/Imagenes/rapaces3.jpg");
+font-size:10pt;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: green;
+}
+}
+@media( min-width:1201px ) {
+body {
+    background-image:url("../../Bibliografía/Imagenes/rapaces4.jpg");
+font-size:12pt;
+font-family:"Times New Roman";
+color: yellow;
+}
+}
+@media( min-width:1601px ) {
+body{
+    background-image:url("../../Bibliografía/Imagenes/rapaces5.jpg");
+font-size: 16pt;
+color: #ff6633;
+}
+}

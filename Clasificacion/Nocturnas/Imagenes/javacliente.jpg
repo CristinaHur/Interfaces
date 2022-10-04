@@ -1,0 +1,55 @@
+window.onload = inicio;
+function inicio() {
+    document.formulario.nombre.value = "Felix";
+    document.formulario.aceptar.onclick = procesar;
+    document.formulario.pr
+}
+<input type="submit" name="validar" value="Enviar"></input>
+
+
+//
+function validaciones() {
+    return //valor logico true or false
+}
+                                //RETURN keyword si devuelve valor lógico
+<form name="formulario" onsubmit="return validaciones">
+
+
+
+</form>
+
+
+//load
+//submit
+//clock
+//dblclick
+//mouse down
+//mouse up
+//mousemove
+//mouseover
+//mouseout
+//focus
+//blur
+//keypress
+//keyclean
+//keyup
+//change
+//select
+
+//.type
+//.targer
+//.button
+// 1, 2, 4  =  
+
+//.target
+//button
+//shiftkey
+//ctrlkey
+//altkey
+//offset x, offset Y
+//client x, client y
+
+//charcode
+//keycode
+//char
+//key
